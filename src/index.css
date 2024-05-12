@@ -1,0 +1,110 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat+One&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal; /* Regular */
+  font-weight: 400;
+  src: url('./assets/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic; /* Italic */
+  font-weight: 400;
+  src: url('./assets/fonts/Montserrat-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal; /* Medium */
+  font-weight: 500;
+  src: url('./assets/fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic; /* Medium Italic */
+  font-weight: 500;
+  src: url('./assets/fonts/Montserrat-MediumItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal; /* Semi-Bold */
+  font-weight: 600;
+  src: url('./assets/fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic; /* Semi-Bold Italic */
+  font-weight: 600;
+  src: url('./assets/fonts/Montserrat-SemiBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal; /* Bold */
+  font-weight: 700;
+  src: url('./assets/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic; /* Bold Italic */
+  font-weight: 700;
+  src: url('./assets/fonts/Montserrat-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal; /* Black */
+  font-weight: 900;
+  src: url('./assets/fonts/Montserrat-Black.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic; /* Black Italic */
+  font-weight: 900;
+  src: url('./assets/fonts/Montserrat-BlackItalic.ttf');
+}
+
+* {
+  font-family: 'Montserrat';
+  scrollbar-width: none;
+}
+
+.wallet-adapter-button-trigger {
+  background-image: linear-gradient(
+    90deg,
+    #2ad3a8 0%,
+    #579bcc 48.43%,
+    #885ef0 100%
+  );
+  border-radius: 12px;
+  height: 36px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+@layer base {
+  body {
+    @apply bg-cover bg-center bg-no-repeat min-h-screen font-mont;
+  }
+}
+/* bg-[url('/background.jpg')]  */

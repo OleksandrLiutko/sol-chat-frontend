@@ -1,0 +1,15 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="software/Folder">
+<g id="Group 1">
+<path id="Rectangle 29" d="M4 7C4 6.44772 4.44772 6 5 6H12.6972C12.8946 6 13.0877 6.05844 13.2519 6.16795L15.7481 7.83205C15.9123 7.94156 16.1054 8 16.3028 8H27C27.5523 8 28 8.44772 28 9V25C28 25.5523 27.5523 26 27 26H5C4.44772 26 4 25.5523 4 25V7Z" fill="#F9B919"/>
+<path id="Rectangle 30" d="M13 12L15.7071 9.29289C15.8946 9.10536 16.149 9 16.4142 9H27C27.5523 9 28 9.44772 28 10V24C28 24.5523 27.5523 25 27 25H5C4.44772 25 4 24.5523 4 24V13C4 12.4477 4.44772 12 5 12H13Z" fill="#FFEDB9"/>
+<path id="Rectangle 28" d="M13.5 13L16.2071 10.2929C16.3946 10.1054 16.649 10 16.9142 10H27C27.5523 10 28 10.4477 28 11V24C28 24.5523 27.5523 25 27 25H5C4.44772 25 4 24.5523 4 24V14C4 13.4477 4.44772 13 5 13H13.5Z" fill="url(#paint0_linear_2001_196)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_2001_196" x1="16" y1="9" x2="28" y2="25" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE79F"/>
+<stop offset="1" stop-color="#FFC937"/>
+</linearGradient>
+</defs>
+</svg>
